@@ -16,7 +16,8 @@ conda activate ./env
 ```bash
 pip install -r requirements.txt
 ```
-### STEP 05 initialize the MLflow project
+### STEP 05 create conda.yaml file
 ```bash
+conda env export > conda.yaml
 ```
-### STEP 06
+### STEP 06 commit and push the changes to the remote repository
